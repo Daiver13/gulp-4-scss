@@ -1,0 +1,24 @@
+/* FONTS
+-------------------------------------------------- */
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* CUSTOM STYLES
+-------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Padding below the footer and lighter body text */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font: 600 20px/40px 'SF Pro Display';
+}
+
+/* Your styles
+-------------------------------------------------- */
